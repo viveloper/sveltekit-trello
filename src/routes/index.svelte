@@ -1,3 +1,7 @@
+<script lang="ts">
+	import Header from '$components/Header.svelte';
+</script>
+
 <div class="list-container">
 	<div class="lists">
 		<div class="list" />
@@ -12,8 +16,9 @@
 
 <style>
 	:global(body) {
-		margin: 0;
-		padding: 0;
+		/* margin: 0; */
+		/* padding: 0; */
+		font-family: 'Roboto', sans-serif;
 	}
 	.list-container {
 		width: 100vw;
